@@ -4,10 +4,12 @@ body{
 }
 h1{
     font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    background-color: salmon;
     padding: 10px 20px;
     border-radius: 5px;
     color: white; 
@@ -25,6 +27,7 @@ h1{
 p{
     color: dimgray;
     font: normal;
+    font-family: 'Roboto', sans-serif;
 }
 span{
     color: rgb(19, 216, 19);
@@ -35,43 +38,57 @@ section{
 }
 h2{
     font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
 }
 #projects{
     text-align: center;
 }
 .three-portion{
-    width: 30%;
+    width: 20%;
+    height: 20%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
     border-radius: 7px;
     box-shadow: 100px gainsboro;
 }
+#third-part{
+    background-color: white;
+}
 .three-portion img{
     border-radius: 7px;
     border: 1px;
     padding: 5px;
-    width: 400px;
+    width: 150px;
+    height: 100px;
+    color: white;
     float: left;
     text-align: center;
     margin-right: 10px;
     margin-bottom: 1px;
     display: block;
+    box-shadow: 50px 50px 90px gainsboro;
+    border-radius: 7px;
+    border-left: 7px whitesmoke;
 }
-.content-wrapper{
-    width: 80%;
-    margin: 5% 10% 5% 10%;
-}
-.content-wrapper img{
-    width: 80%;
-}
-.text-wrapper{
-    width: 50%;
-    position: relative;
-    margin-top: -40%;
-}
-.text-wrapper h2{
-    text-align: center;
-    color: white;
-    font-size: 50px;
+
+.top-banner{
+    background-image: url(Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    display: inline-block;
+    align-items: center;
+    justify-content: right;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: right;
 }
