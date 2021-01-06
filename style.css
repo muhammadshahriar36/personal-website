@@ -58,15 +58,20 @@ h2{
     margin-bottom: 1px;
     display: block;
 }
-#footer img{
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
+.content-wrapper{
+    width: 80%;
+    margin: 5% 10% 5% 10%;
 }
-#bottom-left{
+.content-wrapper img{
+    width: 80%;
+}
+.text-wrapper{
+    width: 50%;
     position: relative;
-    bottom: 8px;
-    left: 16px;
+    margin-top: -40%;
+}
+.text-wrapper h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
